@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-22T14:20:10 ICT" name="Surefire suite" finished-at="2022-05-22T14:20:12 ICT" duration-ms="2198">
+    <groups>
+    </groups>
+    <test started-at="2022-05-22T14:20:10 ICT" name="Surefire test" finished-at="2022-05-22T14:20:12 ICT" duration-ms="2198">
+      <class name="tests.TestGetAndPostExamples">
+        <test-method signature="testPOST()[pri:0, instance:tests.TestGetAndPostExamples@25b485ba]" started-at="2022-05-22T14:20:10 ICT" name="testPOST" finished-at="2022-05-22T14:20:12 ICT" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOST -->
+        <test-method signature="testPOST2()[pri:0, instance:tests.TestGetAndPostExamples@25b485ba]" started-at="2022-05-22T14:20:12 ICT" name="testPOST2" finished-at="2022-05-22T14:20:12 ICT" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOST2 -->
+      </class> <!-- tests.TestGetAndPostExamples -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
