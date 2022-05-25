@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-22T14:21:24 ICT" name="Suite" finished-at="2022-05-22T14:21:28 ICT" duration-ms="3978">
+  <suite started-at="2022-05-23T07:39:49 ICT" name="Suite" finished-at="2022-05-23T07:39:53 ICT" duration-ms="4264">
     <groups>
     </groups>
-    <test started-at="2022-05-22T14:21:24 ICT" name="Test" finished-at="2022-05-22T14:21:28 ICT" duration-ms="3978">
+    <test started-at="2022-05-23T07:39:49 ICT" name="Test" finished-at="2022-05-23T07:39:53 ICT" duration-ms="4264">
       <class name="tests.TestGetAndPostExamples">
-        <test-method signature="testPOST()[pri:0, instance:tests.TestGetAndPostExamples@147ed70f]" started-at="2022-05-22T14:21:24 ICT" name="testPOST" finished-at="2022-05-22T14:21:26 ICT" duration-ms="1872" status="PASS">
+        <test-method signature="testPOST()[pri:0, instance:tests.TestGetAndPostExamples@147ed70f]" started-at="2022-05-23T07:39:49 ICT" name="testPOST" finished-at="2022-05-23T07:39:51 ICT" duration-ms="1874" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPOST -->
-        <test-method signature="testPOST2()[pri:0, instance:tests.TestGetAndPostExamples@147ed70f]" started-at="2022-05-22T14:21:26 ICT" name="testPOST2" finished-at="2022-05-22T14:21:26 ICT" duration-ms="527" status="PASS">
+        <test-method signature="testPOST2()[pri:0, instance:tests.TestGetAndPostExamples@147ed70f]" started-at="2022-05-23T07:39:51 ICT" name="testPOST2" finished-at="2022-05-23T07:39:51 ICT" duration-ms="541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPOST2 -->
       </class> <!-- tests.TestGetAndPostExamples -->
       <class name="tests.PutAndPatchAndDelete">
-        <test-method signature="testDelete()[pri:0, instance:tests.PutAndPatchAndDelete@318ba8c8]" started-at="2022-05-22T14:21:26 ICT" name="testDelete" finished-at="2022-05-22T14:21:27 ICT" duration-ms="540" status="PASS">
+        <test-method signature="testDelete()[pri:0, instance:tests.PutAndPatchAndDelete@318ba8c8]" started-at="2022-05-23T07:39:51 ICT" name="testDelete" finished-at="2022-05-23T07:39:52 ICT" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelete -->
-        <test-method signature="testPatch()[pri:0, instance:tests.PutAndPatchAndDelete@318ba8c8]" started-at="2022-05-22T14:21:27 ICT" name="testPatch" finished-at="2022-05-22T14:21:27 ICT" duration-ms="528" status="PASS">
+        <test-method signature="testPatch()[pri:0, instance:tests.PutAndPatchAndDelete@318ba8c8]" started-at="2022-05-23T07:39:52 ICT" name="testPatch" finished-at="2022-05-23T07:39:52 ICT" duration-ms="540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPatch -->
-        <test-method signature="testPut()[pri:0, instance:tests.PutAndPatchAndDelete@318ba8c8]" started-at="2022-05-22T14:21:27 ICT" name="testPut" finished-at="2022-05-22T14:21:28 ICT" duration-ms="486" status="PASS">
+        <test-method signature="testPut()[pri:0, instance:tests.PutAndPatchAndDelete@318ba8c8]" started-at="2022-05-23T07:39:52 ICT" name="testPut" finished-at="2022-05-23T07:39:53 ICT" duration-ms="710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPut -->
