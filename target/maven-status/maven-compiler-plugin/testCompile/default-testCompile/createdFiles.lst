@@ -1,0 +1,10 @@
+utils\ExcelUtils.class
+tests\DataForTest.class
+tests\SoapXMLRequest.class
+tests\TestOnLocalAPI.class
+tests\SOAPXML.class
+tests\TestGetWithHTMLInRep.class
+tests\TestGetAndPostExamples.class
+tests\JsonSchemaValidator.class
+tests\DataDrivenExample.class
+tests\PutAndPatchAndDelete.class

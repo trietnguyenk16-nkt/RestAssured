@@ -1,31 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-23T07:39:49 ICT" name="Suite" finished-at="2022-05-23T07:39:53 ICT" duration-ms="4264">
+  <suite started-at="2022-06-07T00:03:05 ICT" name="Suite" finished-at="2022-06-07T00:03:13 ICT" duration-ms="8210">
     <groups>
     </groups>
-    <test started-at="2022-05-23T07:39:49 ICT" name="Test" finished-at="2022-05-23T07:39:53 ICT" duration-ms="4264">
+    <test started-at="2022-06-07T00:03:05 ICT" name="Test" finished-at="2022-06-07T00:03:13 ICT" duration-ms="8210">
       <class name="tests.TestGetAndPostExamples">
-        <test-method signature="testPOST()[pri:0, instance:tests.TestGetAndPostExamples@147ed70f]" started-at="2022-05-23T07:39:49 ICT" name="testPOST" finished-at="2022-05-23T07:39:51 ICT" duration-ms="1874" status="PASS">
+        <test-method signature="testGet()[pri:0, instance:tests.TestGetAndPostExamples@318ba8c8]" started-at="2022-06-07T00:03:05 ICT" name="testGet" finished-at="2022-06-07T00:03:05 ICT" duration-ms="562" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPOST -->
-        <test-method signature="testPOST2()[pri:0, instance:tests.TestGetAndPostExamples@147ed70f]" started-at="2022-05-23T07:39:51 ICT" name="testPOST2" finished-at="2022-05-23T07:39:51 ICT" duration-ms="541" status="PASS">
+        </test-method> <!-- testGet -->
+        <test-method signature="test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6(java.lang.String,java.lang.String)[pri:0, instance:tests.TestGetAndPostExamples@318ba8c8]" started-at="2022-06-07T00:03:05 ICT" name="test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6" data-provider="paramText" finished-at="2022-06-07T00:03:07 ICT" duration-ms="1690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[098f6bcd4621d373cade4e832627b4f6]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPOST2 -->
+        </test-method> <!-- test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6 -->
+        <test-method signature="test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6(java.lang.String,java.lang.String)[pri:0, instance:tests.TestGetAndPostExamples@318ba8c8]" started-at="2022-06-07T00:03:07 ICT" name="test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6" data-provider="paramText" finished-at="2022-06-07T00:03:07 ICT" duration-ms="311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[e7d707a26e7f7b6ff52c489c60e429b1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6 -->
+        <test-method signature="test_NumberOfCircuits_ShouldBe_DataDriven(java.lang.String,int)[pri:0, instance:tests.TestGetAndPostExamples@318ba8c8]" started-at="2022-06-07T00:03:07 ICT" name="test_NumberOfCircuits_ShouldBe_DataDriven" data-provider="seasonsAndNumberOfRaces" finished-at="2022-06-07T00:03:08 ICT" duration-ms="679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe_DataDriven -->
+        <test-method signature="test_NumberOfCircuits_ShouldBe_DataDriven(java.lang.String,int)[pri:0, instance:tests.TestGetAndPostExamples@318ba8c8]" started-at="2022-06-07T00:03:08 ICT" name="test_NumberOfCircuits_ShouldBe_DataDriven" data-provider="seasonsAndNumberOfRaces" finished-at="2022-06-07T00:03:08 ICT" duration-ms="624" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe_DataDriven -->
+        <test-method signature="test_NumberOfCircuits_ShouldBe_DataDriven(java.lang.String,int)[pri:0, instance:tests.TestGetAndPostExamples@318ba8c8]" started-at="2022-06-07T00:03:08 ICT" name="test_NumberOfCircuits_ShouldBe_DataDriven" data-provider="seasonsAndNumberOfRaces" finished-at="2022-06-07T00:03:09 ICT" duration-ms="643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1966]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe_DataDriven -->
+        <test-method signature="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia()[pri:0, instance:tests.TestGetAndPostExamples@318ba8c8]" started-at="2022-06-07T00:03:09 ICT" name="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia" finished-at="2022-06-07T00:03:10 ICT" duration-ms="1300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia -->
       </class> <!-- tests.TestGetAndPostExamples -->
       <class name="tests.PutAndPatchAndDelete">
-        <test-method signature="testDelete()[pri:0, instance:tests.PutAndPatchAndDelete@318ba8c8]" started-at="2022-05-23T07:39:51 ICT" name="testDelete" finished-at="2022-05-23T07:39:52 ICT" duration-ms="574" status="PASS">
+        <test-method signature="testDelete()[pri:0, instance:tests.PutAndPatchAndDelete@51e5fc98]" started-at="2022-06-07T00:03:10 ICT" name="testDelete" finished-at="2022-06-07T00:03:11 ICT" duration-ms="851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelete -->
-        <test-method signature="testPatch()[pri:0, instance:tests.PutAndPatchAndDelete@318ba8c8]" started-at="2022-05-23T07:39:52 ICT" name="testPatch" finished-at="2022-05-23T07:39:52 ICT" duration-ms="540" status="PASS">
+        <test-method signature="testPatch()[pri:0, instance:tests.PutAndPatchAndDelete@51e5fc98]" started-at="2022-06-07T00:03:11 ICT" name="testPatch" finished-at="2022-06-07T00:03:12 ICT" duration-ms="586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPatch -->
-        <test-method signature="testPut()[pri:0, instance:tests.PutAndPatchAndDelete@318ba8c8]" started-at="2022-05-23T07:39:52 ICT" name="testPut" finished-at="2022-05-23T07:39:53 ICT" duration-ms="710" status="PASS">
+        <test-method signature="testPut()[pri:0, instance:tests.PutAndPatchAndDelete@51e5fc98]" started-at="2022-06-07T00:03:12 ICT" name="testPut" finished-at="2022-06-07T00:03:13 ICT" duration-ms="916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPut -->

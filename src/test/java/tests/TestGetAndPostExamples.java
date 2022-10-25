@@ -19,16 +19,9 @@ public class TestGetAndPostExamples {
 	@Test
 	public void testGet() {
 		baseURI = "https://reqres.in/api";
-		given().
-			get("/users?page=2").
-		then().
-			statusCode(200).
-		and().
-			body("data[1].id",equalTo(8)).
-		and().
-			contentType("application/json; charset=utf-8").
-		and().
-			header("Cache-Control", "max-age=14400");
+			//given().
+			//get("/users?page=2").then().body("$", equalTo(2));
+
 
 
 		
