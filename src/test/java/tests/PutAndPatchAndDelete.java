@@ -55,7 +55,7 @@ public class PutAndPatchAndDelete {
         when().
             patch("/users/2").
         then().
-            statusCode(200).log().all();
+            statusCode(200).log().all(); //test123
     }
 
 
